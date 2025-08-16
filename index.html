@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anzo Controls - Professional Services & Industrial Solutions</title>
+    <meta name="description" content="Leading provider of professional services including Mechanical Engineering, IT Solutions, HR Services, and Design & Controls with innovative industrial products and solutions.">
+    <meta name="keywords" content="Anzo Controls, mechanical engineering, IT solutions, HR services, design controls, industrial automation, professional services">
+    <meta name="author" content="Anzo Controls">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.anzocontrols.com/">
+    <meta property="og:title" content="Anzo Controls - Professional Services & Industrial Solutions">
+    <meta property="og:description" content="Leading provider of professional services including Mechanical Engineering, IT Solutions, HR Services, and Design & Controls.">
+    <meta property="og:image" content="https://www.anzocontrols.com/assets/anzo-controls-og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.anzocontrols.com/">
+    <meta property="twitter:title" content="Anzo Controls - Professional Services & Industrial Solutions">
+    <meta property="twitter:description" content="Leading provider of professional services including Mechanical Engineering, IT Solutions, HR Services, and Design & Controls.">
+    <meta property="twitter:image" content="https://www.anzocontrols.com/assets/anzo-controls-og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Anzo Controls",
+        "url": "https://www.anzocontrols.com",
+        "logo": "https://www.anzocontrols.com/assets/anzo-controls-logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-9717765172",
+            "contactType": "customer service",
+            "availableLanguage": ["English", "Hindi"]
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "postalCode": "122001",
+            "addressCountry": "IN"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/anzo-controls",
+            "https://www.facebook.com/anzocontrols",
+            "https://twitter.com/anzocontrols"
+        ]
+    }
+    </script>
+</head>
+<body data-theme="light">
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="nav-logo" aria-label="Anzo Controls Home">
+                    Anzo Controls
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" data-scroll="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#departments" class="nav-link" data-scroll="departments">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link" data-scroll="services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#products" class="nav-link" data-scroll="products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-scroll="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link" data-scroll="testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-scroll="contact">Contact</a>
+                    </li>
+                </ul>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Professional Industrial Solutions for Tomorrow</h1>
+                <p class="hero-subtitle">
+                    We deliver comprehensive services across Mechanical Engineering, IT Solutions, 
+                    HR Services, and Design & Controls, empowering businesses with cutting-edge 
+                    industrial automation and professional expertise.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Explore Products
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-large">
+                        <i class="fas fa-phone"></i>
+                        Get Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments" class="section departments">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Our Expert Departments</h2>
+                <p class="section-subtitle">
+                    Specialized teams dedicated to delivering excellence across multiple domains 
+                    with years of industry experience and cutting-edge expertise.
+                </p>
+            </div>
+            <div class="departments-grid">
+                <div class="department-card animate-on-scroll">
+                    <div class="department-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="department-title">Mechanical Engineering</h3>
+                    <p class="department-description">
+                        Advanced mechanical engineering solutions including equipment design, 
+                        manufacturing automation, predictive maintenance, and precision machinery development 
+                        for industrial applications.
+                    </p>
+                    <ul class="department-services">
+                        <li>Industrial Equipment Design</li>
+                        <li>Manufacturing Automation</li>
+                        <li>Predictive Maintenance Systems</li>
+                        <li>Quality Control & Testing</li>
+                        <li>CAD/CAM Engineering</li>
+                        <li>Process Optimization</li>
+                    </ul>
+                    <div class="mt-6">
+                        <a href="#contact" class="btn btn-gradient btn-small">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="department-card animate-on-scroll">
+                    <div class="department-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="department-title">IT Solutions</h3>
+                    <p class="department-description">
+                        Comprehensive technology solutions including custom software development, 
+                        cloud infrastructure, cybersecurity, digital transformation, and enterprise 
+                        IT consulting services.
+                    </p>
+                    <ul class="department-services">
+                        <li>Custom Software Development</li>
+                        <li>Cloud Infrastructure & Migration</li>
+                        <li>Cybersecurity Solutions</li>
+                        <li>Enterprise System Integration</li>
+                        <li>Digital Transformation</li>
+                        <li>24/7 Technical Support</li>
+                    </ul>
+                    <div class="mt-6">
+                        <a href="#contact" class="btn btn-gradient btn-small">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="department-card animate-on-scroll">
+                    <div class="department-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="department-title">Human Resources</h3>
+                    <p class="department-description">
+                        Strategic human resource management including talent acquisition, 
+                        performance optimization, employee development, compliance management, 
+                        and organizational excellence initiatives.
+                    </p>
+                    <ul class="department-services">
+                        <li>Strategic Talent Acquisition</li>
+                        <li>Employee Training & Development</li>
+                        <li>Performance Management Systems</li>
+                        <li>HR Compliance & Policies</li>
+                        <li>Organizational Development</li>
+                        <li>Employee Engagement Programs</li>
+                    </ul>
+                    <div class="mt-6">
+                        <a href="#contact" class="btn btn-gradient btn-small">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="department-card animate-on-scroll">
+                    <div class="department-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="department-title">Design & Controls</h3>
+                    <p class="department-description">
+                        Innovative design solutions and advanced control systems for industrial automation, 
+                        process control, HMI development, and intelligent manufacturing systems with 
+                        user-centric approaches.
+                    </p>
+                    <ul class="department-services">
+                        <li>Industrial Control Systems</li>
+                        <li>HMI/SCADA Development</li>
+                        <li>Process Automation Design</li>
+                        <li>UI/UX Design Services</li>
+                        <li>PLC Programming</li>
+                        <li>IoT Integration Solutions</li>
+                    </ul>
+                    <div class="mt-6">
+                        <a href="#contact" class="btn btn-gradient btn-small">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Our Professional Services</h2>
+                <p class="section-subtitle">
+                    Comprehensive service offerings designed to meet your business needs 
+                    with innovative solutions and industry expertise.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3 class="service-title">Engineering Consulting</h3>
+                    <p class="service-description">
+                        Expert engineering consultation for complex industrial challenges, 
+                        system optimization, and technical problem-solving.
+                    </p>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="service-title">Security & Monitoring</h3>
+                    <p class="service-description">
+                        Advanced security systems, real-time monitoring solutions, 
+                        and comprehensive cybersecurity protection services.
+                    </p>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-title">Business Analytics</h3>
+                    <p class="service-description">
+                        Data-driven insights, performance analytics, and business 
+                        intelligence solutions to optimize operations and growth.
+                    </p>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="service-title">24/7 Support</h3>
+                    <p class="service-description">
+                        Round-the-clock technical support, maintenance services, 
+                        and emergency response for critical business operations.
+                    </p>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="service-title">Cloud Solutions</h3>
+                    <p class="service-description">
+                        Complete cloud migration, infrastructure management, 
+                        and scalable cloud-based solutions for modern businesses.
+                    </p>
+                </div>
+
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">Automation Services</h3>
+                    <p class="service-description">
+                        Industrial automation, process control, robotic integration, 
+                        and smart manufacturing solutions for enhanced productivity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section products">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Industrial Products & Solutions</h2>
+                <p class="section-subtitle">
+                    Cutting-edge industrial products and solutions designed to enhance 
+                    efficiency, productivity, and operational excellence across various sectors.
+                </p>
+            </div>
+
+            <div class="products-filter animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="control-systems">Control Systems</button>
+                <button class="filter-btn" data-filter="software">Software</button>
+                <button class="filter-btn" data-filter="equipment">Equipment</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card animate-on-scroll" data-category="automation">
+                    <div class="product-image">
+                        <div class="product-badge">Featured</div>
+                        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Industrial Automation</div>
+                        <h3 class="product-title">Smart Manufacturing Suite</h3>
+                        <p class="product-description">
+                            Comprehensive industrial automation solution with AI-powered predictive 
+                            maintenance, real-time monitoring, and intelligent process optimization.
+                        </p>
+                        <ul class="product-features">
+                            <li>AI-powered predictive analytics</li>
+                            <li>Real-time production monitoring</li>
+                            <li>Automated quality control systems</li>
+                            <li>Energy optimization algorithms</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-price">Contact for Quote</div>
+                            <a href="#contact" class="btn btn-primary btn-small">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="control-systems">
+                    <div class="product-image">
+                        <div style="background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Control Systems</div>
+                        <h3 class="product-title">Advanced PLC Controllers</h3>
+                        <p class="product-description">
+                            High-performance programmable logic controllers with integrated safety features, 
+                            advanced communication protocols, and modular expansion capabilities.
+                        </p>
+                        <ul class="product-features">
+                            <li>Modular design architecture</li>
+                            <li>Safety-certified components</li>
+                            <li>Multiple communication protocols</li>
+                            <li>Web-based configuration tools</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-price">₹2,50,000+</div>
+                            <a href="#contact" class="btn btn-primary btn-small">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="software">
+                    <div class="product-image">
+                        <div style="background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Software Solutions</div>
+                        <h3 class="product-title">Industrial SCADA System</h3>
+                        <p class="product-description">
+                            Powerful SCADA software for industrial process visualization, data acquisition, 
+                            alarm management, and comprehensive reporting capabilities.
+                        </p>
+                        <ul class="product-features">
+                            <li>Real-time data visualization</li>
+                            <li>Advanced alarm management</li>
+                            <li>Historical data analysis</li>
+                            <li>Multi-user access control</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-price">₹5,00,000+</div>
+                            <a href="#contact" class="btn btn-primary btn-small">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="equipment">
+                    <div class="product-image">
+                        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Industrial Equipment</div>
+                        <h3 class="product-title">Precision Measurement Tools</h3>
+                        <p class="product-description">
+                            High-precision industrial measurement and calibration equipment for 
+                            quality control, process monitoring, and compliance requirements.
+                        </p>
+                        <ul class="product-features">
+                            <li>High-precision sensors</li>
+                            <li>Digital calibration systems</li>
+                            <li>Automated data logging</li>
+                            <li>Compliance reporting tools</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-price">₹1,25,000+</div>
+                            <a href="#contact" class="btn btn-primary btn-small">Inquire</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="automation">
+                    <div class="product-image">
+                        <div class="product-badge">New</div>
+                        <div style="background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Robotic Systems</div>
+                        <h3 class="product-title">Collaborative Robots</h3>
+                        <p class="product-description">
+                            Advanced collaborative robots designed for safe human-robot interaction 
+                            in manufacturing environments with intuitive programming interfaces.
+                        </p>
+                        <ul class="product-features">
+                            <li>Safety-certified cobots</li>
+                            <li>Intuitive programming</li>
+                            <li>Vision-guided systems</li>
+                            <li>Flexible deployment options</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-price">₹15,00,000+</div>
+                            <a href="#contact" class="btn btn-primary btn-small">Explore</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="software">
+                    <div class="product-image">
+                        <div style="background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Analytics Software</div>
+                        <h3 class="product-title">Business Intelligence Platform</h3>
+                        <p class="product-description">
+                            Comprehensive business intelligence and analytics platform for data-driven 
+                            decision making with advanced visualization and reporting capabilities.
+                        </p>
+                        <ul class="product-features">
+                            <li>Interactive dashboards</li>
+                            <li>Advanced data analytics</li>
+                            <li>Predictive modeling</li>
+                            <li>Custom report generation</li>
+                        </ul>
+                        <div class="product-footer">
+                            <div class="product-price">₹3,75,000+</div>
+                            <a href="#contact" class="btn btn-primary btn-small">View Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text animate-left">
+                    <h2 class="section-title">About Anzo Controls</h2>
+                    <p class="about-description">
+                        With over a decade of excellence in industrial solutions, Anzo Controls has established 
+                        itself as a trusted partner for businesses seeking comprehensive professional services 
+                        and cutting-edge industrial automation solutions.
+                    </p>
+                    <p class="about-description">
+                        Our team of experienced engineers, IT professionals, HR specialists, and design experts 
+                        work collaboratively to deliver innovative solutions that drive operational efficiency, 
+                        enhance productivity, and foster sustainable growth for our clients across diverse industries.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number counter" data-target="500">0</span>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number counter" data-target="75">0</span>
+                            <p class="stat-label">Expert Professionals</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number counter" data-target="12">0</span>
+                            <p class="stat-label">Years of Experience</p>
+                        </div>
+                    </div>
+
+                    <ul class="about-features">
+                        <li>ISO 9001:2015 Certified Quality Management</li>
+                        <li>24/7 Technical Support & Maintenance</li>
+                        <li>Cutting-edge Technology Integration</li>
+                        <li>Sustainable & Environment-friendly Solutions</li>
+                        <li>Comprehensive Training & Development Programs</li>
+                        <li>Global Partnerships & Local Expertise</li>
+                    </ul>
+
+                    <div class="mt-8">
+                        <a href="#contact" class="btn btn-primary btn-large">Get Started Today</a>
+                        <a href="#testimonials" class="btn btn-secondary">Read Testimonials</a>
+                    </div>
+                </div>
+
+                <div class="about-image animate-right">
+                    <div style="width: 100%; height: 500px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 1.5rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);">
+                        <i class="fas fa-building"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">
+                    Discover how our professional services and innovative solutions have 
+                    transformed businesses and exceeded expectations across various industries.
+                </p>
+            </div>
+
+            <div class="testimonials-carousel" id="testimonialsCarousel">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-quote">
+                            Anzo Controls transformed our manufacturing process with their smart automation 
+                            solutions. The predictive maintenance system has reduced our downtime by 70% and 
+                            significantly improved our operational efficiency. Their team's expertise and 
+                            dedication are truly exceptional.
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">RS</div>
+                            <div class="testimonial-info">
+                                <h4>Rajesh Sharma</h4>
+                                <p>Manufacturing Director, TechFlow Industries</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-quote">
+                            The IT solutions provided by Anzo Controls have revolutionized our digital 
+                            infrastructure. Their cloud migration strategy was flawless, and the ongoing 
+                            support has been outstanding. We've seen a 40% improvement in system performance 
+                            and enhanced security across all our operations.
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">PK</div>
+                            <div class="testimonial-info">
+                                <h4>Priya Krishnan</h4>
+                                <p>CTO, Digital Dynamics Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-quote">
+                            Our partnership with Anzo Controls for HR services has been transformational. 
+                            Their strategic approach to talent acquisition and employee development has 
+                            helped us build a highly skilled workforce. The training programs they designed 
+                            have significantly improved our team's productivity and job satisfaction.
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">MG</div>
+                            <div class="testimonial-info">
+                                <h4>Michael Gupta</h4>
+                                <p>Head of Operations, InnovateCorp</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-quote">
+                            The design and control systems implemented by Anzo Controls have exceeded our 
+                            expectations. Their innovative HMI interfaces and process automation solutions 
+                            have streamlined our operations and provided real-time insights that drive 
+                            better decision-making. Highly recommended for any industrial automation needs.
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">SA</div>
+                            <div class="testimonial-info">
+                                <h4>Sarah Anderson</h4>
+                                <p>Process Engineer, Advanced Manufacturing Ltd</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials-arrows">
+                    <button class="testimonial-arrow" id="prevTestimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="testimonial-arrow" id="nextTestimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="testimonials-nav" id="testimonialsNav">
+                <button class="testimonial-dot active" data-slide="0"></button>
+                <button class="testimonial-dot" data-slide="1"></button>
+                <button class="testimonial-dot" data-slide="2"></button>
+                <button class="testimonial-dot" data-slide="3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Get In Touch With Us</h2>
+                <p class="section-subtitle">
+                    Ready to transform your business with our professional services and 
+                    industrial solutions? Contact us today for a personalized consultation.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info animate-left">
+                    <h3>Contact Information</h3>
+                    <p class="mb-8">
+                        Reach out to us through any of the following channels. 
+                        Our team is ready to assist you with your requirements.
+                    </p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Address</h4>
+                            <p>
+                                Sector 24, Gurgaon<br>
+                                Haryana, India - 122001
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>+91 9717765172</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>info@anzocontrols.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Business Hours</h4>
+                            <p>
+                                Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                Saturday: 10:00 AM - 4:00 PM<br>
+                                Sunday: Closed
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4 class="mb-4">Connect With Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container animate-right">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-success" id="formSuccess">
+                            <i class="fas fa-check-circle"></i>
+                            Thank you! Your message has been sent successfully. We'll get back to you soon.
+                        </div>
+
+                        <div class="form-group">
+                            <label for="fullName" class="form-label">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" class="form-control" required>
+                            <div class="form-error" id="fullNameError">Please enter your full name</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <div class="form-error" id="emailError">Please enter a valid email address</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                            <div class="form-error" id="phoneError">Please enter a valid phone number</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company" class="form-label">Company Name</label>
+                            <input type="text" id="company" name="company" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="department" class="form-label">Department of Interest *</label>
+                            <select id="department" name="department" class="form-control" required>
+                                <option value="">Select Department</option>
+                                <option value="mechanical">Mechanical Engineering</option>
+                                <option value="it">IT Solutions</option>
+                                <option value="hr">Human Resources</option>
+                                <option value="design">Design & Controls</option>
+                                <option value="products">Products & Equipment</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                            <div class="form-error" id="departmentError">Please select a department</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                            <div class="form-error" id="subjectError">Please enter a subject</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required 
+                                placeholder="Please describe your requirements, project details, or any specific questions you have..."></textarea>
+                            <div class="form-error" id="messageError">Please enter your message</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="d-flex align-items-center" style="cursor: pointer;">
+                                <input type="checkbox" id="privacyConsent" name="privacyConsent" required style="margin-right: 10px;">
+                                <span class="text-sm">I agree to the <a href="#" style="color: var(--secondary-color);">Privacy Policy</a> and consent to being contacted by Anzo Controls.</span>
+                            </label>
+                            <div class="form-error" id="privacyError">Please accept the privacy policy</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">Anzo Controls</div>
+                    <p class="footer-description">
+                        Leading provider of professional industrial solutions including 
+                        Mechanical Engineering, IT Services, HR Solutions, and Design & Controls 
+                        with a commitment to innovation and excellence.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Our Departments</h4>
+                    <ul>
+                        <li><a href="#departments">Mechanical Engineering</a></li>
+                        <li><a href="#departments">IT Solutions</a></li>
+                        <li><a href="#departments">Human Resources</a></li>
+                        <li><a href="#departments">Design & Controls</a></li>
+                        <li><a href="#products">Industrial Products</a></li>
+                        <li><a href="#services">Professional Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Engineering Consulting</a></li>
+                        <li><a href="#services">Security & Monitoring</a></li>
+                        <li><a href="#services">Business Analytics</a></li>
+                        <li><a href="#services">24/7 Technical Support</a></li>
+                        <li><a href="#services">Cloud Solutions</a></li>
+                        <li><a href="#services">Automation Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Client Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Sector 24, Gurgaon, Haryana, India</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9717765172</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@anzocontrols.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <p>www.anzocontrols.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Anzo Controls. All rights reserved. | Designed with ❤️ for industrial excellence.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
